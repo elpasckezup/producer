@@ -1,0 +1,18 @@
+schema-version: v1
+kind: manifest
+metadata:
+  name: producer
+  description: Describe your app explaining its purpose
+  starter: data-division/dataops-provider/main
+  stack-version-id: 01GYD5Q54ZRKRAP15ZXRBTN5TA
+spec:
+  type: app
+  plugins:
+    - name: zup/data-division/dataops-provider@0.0.7
+      plugin-version-id: 01GYDFB9DJ2MKQ2D29BPPJ2MXV
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
+  global-inputs: {}
+  global-computed-inputs: {}
